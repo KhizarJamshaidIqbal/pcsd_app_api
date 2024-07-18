@@ -3,3 +3,6 @@ uvicorn
 Pillow
 numpy
 tensorflow
+pandas
+joblib
+scikit-learn
