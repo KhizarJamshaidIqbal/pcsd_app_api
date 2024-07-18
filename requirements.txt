@@ -1,5 +1,5 @@
 fastapi[all]
-uvicorn==0.21.1
-Pillow==9.5.0
-numpy==1.24.2
-tensorflow==2.10.0
+uvicorn
+Pillow
+numpy
+tensorflow
