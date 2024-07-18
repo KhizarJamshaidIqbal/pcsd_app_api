@@ -3,8 +3,10 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 
-# Load the TensorFlow Lite model
-tflite_model_path = 'C:/Users/Khizar Jamshed Iqbal/Desktop/FYP(PCSADA)/api/VGG16_Model.tflite'
+# Define paths relative to the script location
+base_dir = os.path.dirname(os.path.abspath(__file__))
+tflite_model_path = os.path.join(base_dir, 'VGG16_Model.tflite')
+labels_path = os.path.join(base_dir, 'labels.txt')
 
 # Check if the model file exists and is accessible
 if not os.path.exists(tflite_model_path):
@@ -20,7 +22,6 @@ try:
     output_details = interpreter.get_output_details()
 
     # Load class labels
-    labels_path = "C:/Users/Khizar Jamshed Iqbal/Desktop/FYP(PCSADA)/api/labels.txt"
     if not os.path.exists(labels_path):
         raise FileNotFoundError(f"Labels file '{labels_path}' not found or inaccessible")
     
