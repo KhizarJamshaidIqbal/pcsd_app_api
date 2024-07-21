@@ -1,5 +1,6 @@
 onrender.com
 - Accuracy : 80
+- Model : VGG16
     - Method : POST
     - Required Parameter ::     "file"    :    "image_path"
     - https://pcsd-app-api-main.onrender.com/
@@ -8,6 +9,7 @@ onrender.com
 
 railway.app
 - Accuracy : 81
+- Model : VGG16
     - Method : POST
     - Required Parameter ::     "file"    :    "image_path"
     - https://pcsdappapi-main-81.up.railway.app/
