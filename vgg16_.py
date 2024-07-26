@@ -5,7 +5,7 @@ from PIL import Image
 
 # Define paths relative to the script location
 base_dir = os.path.dirname(os.path.abspath(__file__))
-tflite_model_path = os.path.join(base_dir, 'VGG16_Model.tflite')
+tflite_model_path = os.path.join(base_dir, 'MobileNet.tflite')
 labels_path = os.path.join(base_dir, 'labels.txt')
 
 # Check if the model file exists and is accessible
