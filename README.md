@@ -14,3 +14,12 @@ railway.app
     - Required Parameter ::     "file"    :    "image_path"
     - https://pcsdappapi-main-81.up.railway.app/
     - https://pcsdappapi-main-81.up.railway.app/upload-image/
+
+
+railway.app
+- Accuracy : 82
+- Model : VGG16
+    - Method : POST
+    - Required Parameter ::     "file"    :    "image_path"
+    - https://pcsdappapi-main-82.up.railway.app/
+    - https://pcsdappapi-main-82.up.railway.app/upload-image/
